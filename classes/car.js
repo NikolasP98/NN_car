@@ -18,7 +18,7 @@ export default class Car {
 		this.speed = 0;
 
 		this.maxSpeed = 2;
-		this.acceleration = 0.25;
+		this.acceleration = 0.2;
 		this.friction = 0.05;
 
 		this.useBrain = controlType == 'AI';
