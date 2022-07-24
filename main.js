@@ -48,7 +48,7 @@ export default class Main {
 		deleteButton.onclick = () => this.discard();
 
 		street = new Street(this.#width / 2, this.#width * 0.9);
-		const N = 2;
+		const N = 100;
 		cars = this.#generateCars(N);
 		bestCar = cars[0];
 		if (localStorage.getItem('bestBrain')) {
